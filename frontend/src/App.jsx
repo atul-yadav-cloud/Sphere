@@ -25,7 +25,9 @@ import Search from './pages/Search'
 import getAllNotifications from './hooks/getAllNotifications'
 import Notifications from './pages/Notifications'
 import { setNotificationData } from './redux/userSlice'
-export const serverUrl="http://localhost:8000"
+// export const serverUrl="http://localhost:8000"    ye file ka original port tha niche wali
+//                                                   line hatakar ise unmessage kar denge
+export const serverUrl="https://sphere-dpnn.onrender.com"
 function App() {
    getCurrentUser()
    getSuggestedUsers()
