@@ -14,7 +14,7 @@ dotenv.config()
 
 const port=process.env.PORT || 5000
 app.use(cors({
-    origin:"http://sphereapp.netlify.app",  // http://localhost:5173   change star with this
+    origin:"http://localhost:5173",
     credentials:true
 }))
 app.use(express.json())
