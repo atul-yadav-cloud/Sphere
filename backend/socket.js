@@ -6,7 +6,7 @@ const server=http.createServer(app)
 
 const io=new Server(server,{
     cors:{
-        origin:"http://sphereapp.netlify.app",  // http://localhost:5173 change star with this
+        origin:"https://sphereapp.netlify.app",  // http://localhost:5173 change star with this
         methods:["GET","POST"]
     }
 })
